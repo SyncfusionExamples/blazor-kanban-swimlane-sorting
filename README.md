@@ -1,4 +1,4 @@
-# Swimlane Row Custom Sorting (Blazor Kanban)
+# Blazor Kanban - Swimlane Row Custom Sorting 
 
 This sample demonstrates how to implement custom sorting for swimlane rows in the Syncfusion Blazor Kanban component. It shows how to control the swimlane order programmatically to match business requirements or user preferences.
 
