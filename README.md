@@ -33,4 +33,6 @@ dotnet restore
 dotnet build
 ```
 
-If you'd like, I can add a short code snippet to this README showing the sorting lambda or comparator used in the sample.
+## Troubleshooting & support
+
+If you encounter issues, confirm that packages are restored, the project builds, and the license key is registered correctly. For more details about Syncfusion components consult the Syncfusion Blazor documentation.
