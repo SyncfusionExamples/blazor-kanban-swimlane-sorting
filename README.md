@@ -1,38 +1,53 @@
-# Blazor Kanban - Swimlane Row Custom Sorting 
+# Blazor Kanban - Swimlane Row Custom Sorting
 
-This sample demonstrates how to implement custom sorting for swimlane rows in the Syncfusion Blazor Kanban component. It shows how to control the swimlane order programmatically to match business requirements or user preferences.
+A sample Blazor application showcasing **custom swimlane row sorting** in the Syncfusion [Blazor Kanban](https://www.syncfusion.com/gantt-sdk/blazor-kanban-board) component.
 
 ## Overview
 
-Use this sample to learn how to apply a custom ordering mechanism for swimlane rows instead of the default alphabetical or data-driven ordering. The pattern can be adapted to sort by priority, custom status order, or user-defined sequences.
+By default, the Blazor Kanban orders swimlane rows alphabetically or by data source order. This sample demonstrates how to override that behavior and **define a custom, programmatic order** for swimlane rows — essential for workflows that require priority-based sorting, custom status sequences, or user-defined task organization.
 
 ## Features
 
-- Custom swimlane ordering
-- Integration with the Syncfusion Kanban component
-- Example code showing how to compute and apply a custom row order
+- **Custom Swimlane Row Ordering** — Demonstrates programmatic reordering of swimlane rows via the `SwimlaneSorting` event
+- **Multi-Column Kanban Board** — Blazor Kanban with three workflow columns (To Do, In Progress, Done)
+- **Interactive Server Rendering** — Built with Blazor Interactive Server components for real-time interactivity
+- **In-Memory Data Source** — Complete working example with in-memory task data (no database required)
+- **Event-Driven Sorting Logic** — Type-safe event binding demonstrating how to capture and reorder swimlane rows dynamically
 
-**Documentation**: https://blazor.syncfusion.com/documentation/kanban/swimlane#custom-order
+## Getting started
 
-## Prerequisites
+### Prerequisites
 
-- Visual Studio 2022 (or later)
-- The .NET SDK required by the solution
+- [.NET 10 SDK](https://dotnet.microsoft.com/download) or later
+- [Visual Studio 2022](https://visualstudio.microsoft.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-## Run the project
-
-1. Clone the repository to a local folder.
-2. Open the solution in Visual Studio 2022.
-3. Restore NuGet packages by rebuilding the solution or running `dotnet restore`.
-4. Build and run the project from Visual Studio.
-
-Optional CLI commands:
-
-```powershell
-dotnet restore
-dotnet build
+### Clone the repository:
+   
+```bash
+git clone https://github.com/SyncfusionExamples/blazor-kanban-swimlane-sorting.git
+cd blazor-kanban-swimlane-sorting
 ```
 
-## Troubleshooting & support
+### Run with Visual Studio
 
-If you encounter issues, confirm that packages are restored, the project builds, and the license key is registered correctly. For more details about Syncfusion components consult the Syncfusion Blazor documentation.
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
+dotnet restore
+
+# Run the project
+dotnet run
+```
+
+## References
+
+**Documentation**: https://help.syncfusion.com/gantt-sdk/blazor/kanban/swimlane
+
+**Online example**: https://blazor.syncfusion.com/demos/kanban/swimlane?theme=fluent2
