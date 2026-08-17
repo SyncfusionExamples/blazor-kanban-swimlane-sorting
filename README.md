@@ -22,7 +22,7 @@ By default, the Blazor Kanban orders swimlane rows alphabetically or by data sou
 - [Visual Studio 2022](https://visualstudio.microsoft.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-### Clone the repository:
+### Clone the repository
    
 ```bash
 git clone https://github.com/SyncfusionExamples/blazor-kanban-swimlane-sorting.git
